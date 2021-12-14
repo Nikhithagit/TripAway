@@ -1,0 +1,106 @@
+.navbar-brand{
+   text-align: left;
+   position: absolute;
+    transform: translateY(-110%);
+    left: 80%;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(238, 224, 224);
+    
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header{
+    text-align: justify;
+    padding: 50px 20px 20px 30px;
+    background-image:linear-gradient(#2c2b2b,rgba(35, 35, 37, 0.933)) ;
+    font-weight: 800;
+    color: white;
+    font-size: 15px;
+}
+
+.header p{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 17px;
+}
+/*--------------------------------------------------------------------------------*/
+.places{
+    padding: 70px 20px 20px 20px;
+    background: rgb(238, 224, 224);
+
+}
+.place-img img{
+    width: 100%;
+    padding: 15px;
+    height: 250px;
+}
+
+.place-box{
+    background:rgba(45, 45, 49, 0.933);
+    box-shadow:0 0 10px 1px rgba(37, 73, 214, 0.18);
+    margin-bottom: 20px;
+    border-radius:10px;
+    height: 550px;
+}
+.tag{
+    background: rgb(43, 119, 170);
+    color: white;
+    font-weight: 800;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 20px;
+    position: relative;
+    bottom: 10%;
+    width: 30px;
+    height: 50px;
+}
+
+.place-details{
+    padding: 20px;
+    text-align: justify;
+    color: white;
+}
+
+.heading{
+    font-weight: 600;
+    font-size: 35px;
+   padding-left:5px ;
+  
+}
+.place-details h4{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.place-details p{
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+   
+}
+
+.btn-primary{
+    position: relative;
+    left: 75%;
+    bottom: -20px;
+    
+}
+/*-----------------------------------------------------------------------------------*/
+.footer{
+    padding: 50px 20px;
+    background-image:linear-gradient(#2c2b2b,rgba(21, 21, 22, 0.933)) ;
+    color: white;
+    
+}
+.footer h4{
+    text-align: left;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.footer p{
+    text-align: justify;
+    font-size: 15px;
+    padding-right: 35px;
+}

@@ -1,0 +1,345 @@
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+
+}
+.navbar{
+    background: rgb(238, 224, 224);
+}
+.nav-link{
+    color:black;
+    font-weight: 600;
+  
+}
+
+.navbar-brand{
+    color: rgba(100, 16, 68, 0.933);
+    font-size: 30px;
+    font-weight: 800;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.form-control{
+    color: black;
+    font-weight: bold;
+} 
+
+.carousel img{
+   height: 600px;
+}
+
+.carousel-caption{
+    position: absolute;
+    transform: translateY(-80%);
+    left:15%;
+    top: 55%;    
+}
+
+.carousel-caption h1{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 55px;
+    font-weight: 500;
+    color: black;
+    font-style: italic;
+    text-align: center;
+}
+.carousel-caption p{
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+.btn-primary{
+    position: relative;
+    text-align: justify;
+    left: 40%;
+}
+.input-group{
+    width: 90%;
+    max-width: 450px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+}
+
+.form-control
+{
+    
+    border-radius: 30px !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+
+.input-group-text{
+    height: 100%;
+    width: 100%;
+    border: 0 !important;
+    background-image: linear-gradient(rgba(194, 194, 214, 0.933),#3c2381);
+    color: #fff !important;
+    padding: 0 25px;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------------------*/
+.features{
+    padding: 70px 0;
+    background: rgb(238, 224, 224);
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 30px ;
+
+}
+
+.feature-img img{
+    width: 100%;
+
+}
+
+.price{
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    color: white;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+    right: 20px;
+    bottom: -25px;
+    position: absolute;
+}
+
+.feature-img{
+    position: relative;
+    
+}
+.feature-box{
+    background: white;
+}
+.rating{
+    float: right;
+    padding: 3px;
+    background:white ;
+    bottom: -1px;
+    position: absolute;
+   
+}
+
+.features .fa{
+    font-size: 15px;
+    color:#ff5722 ;
+}
+
+.feature-details{
+    padding: 20px;
+    text-align: justify;
+}
+
+.feature-details h4{
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.feature-details p{
+    font-size: 15px;
+}
+.feature-details.fa{
+    margin-right: 5px;
+   text-align: justify; 
+}
+
+.feature-box{
+    box-shadow:0 0 10px 1px rgba(37, 73, 214, 0.18);
+    margin-bottom: 20px;
+}
+/*------------------------------------------------------------------------------------*/
+
+.Gallery{
+    padding: 100px 0px 100px 0px ;
+    background: grey;
+
+}
+.collect{
+    margin-left: 70px !important;
+     margin-right: 80px  !important;
+     padding-left:70px ;
+     padding-right: 60px;
+ }
+
+ .slick-prev{
+    width: 65px;
+    position: absolute;
+    top: 100px;
+    left: 15px;
+    background-color: antiquewhite;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.slick-next{
+    width: 50px;
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    background-color: antiquewhite;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.collections{
+    background: rgb(238, 224, 224);
+}
+.collection-box img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    height: 250px;
+}
+.collection-box img:hover{
+    transform: scale(1.1);
+}
+.collection-box h4{
+    width: 250px;
+    left: 10px;
+    font-weight: 700 ;
+    position: absolute; 
+    bottom: 10px;
+    font-size: 19px;
+    color: white;
+    text-shadow: -2px 2px 2px #000;
+    display: block;
+ 
+}
+
+.collection-box {
+    position: relative;
+    margin-bottom: 30px;
+    
+}
+
+.tag{
+    width: 70px;
+    height: 25px;
+    background: white;
+    color:black;
+    font-weight: 700;
+    border-radius: 10%;
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+    left: 10px;
+    bottom:40px;
+    position: absolute;
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+   text-align: center;
+}
+
+/*----------------------------------------------------------------------------*/
+
+.parallex{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/parallax.jpeg) no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 80%;
+}
+
+.parallex h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.parallex p{
+    font-size:25px;
+    font-style: italic;
+    color: #ff5722;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.parallex-input-group{
+    position: relative;
+    right: 20%;
+
+}
+
+/*---------------------------------------------------------------------------------*/
+.users-feedback{
+    padding: 100px 0;
+    background: rgb(238, 224, 224);
+}
+.user-review{
+    text-align: center;
+    box-shadow: 0 0 10px 1px rgba(97, 97, 139, 0.2);
+    padding-bottom: 50px;
+    border-radius: 10%;
+    background: white;
+    transition: 0.5s;
+}
+.user-review p{
+    padding: 50px 10px 10px 10px;
+}
+
+.users-feedback img{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    border-radius: 50%;
+    margin: -30px 0 20px 40% ;
+}
+
+.user-review p::before{
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #6495ed;
+    font-family: sans-serif;
+    left: 44%;
+    top: -20px;
+}
+
+.user{
+    width: 60px;
+    height: 60px;
+    background: grey;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+    position: relative;
+    text-align: center;
+    margin: -30px 0 20px 40% ;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+.footer{
+    padding: 70px 20px;
+    background-image:linear-gradient(#2c2b2b,rgba(21, 21, 22, 0.933)) ;
+    color: white;
+    
+}
+.footer h4{
+    text-align: left;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+.footer p{
+    text-align: justify;
+    font-size: 15px;
+    padding-right: 35px;
+}
+
