@@ -9,13 +9,13 @@
     background: rgb(238, 224, 224);
 }
 .nav-link{
-    color:black;
+    color:black !important;
     font-weight: 600;
   
 }
 
 .navbar-brand{
-    color: rgba(100, 16, 68, 0.933);
+    color: rgba(100, 16, 68, 0.933) !important;
     font-size: 30px;
     font-weight: 800;
     font-style: italic;
@@ -27,7 +27,8 @@
 } 
 
 .carousel img{
-   height: 600px;
+   height: 650px;
+   width: 100%;
 }
 
 .carousel-caption{
@@ -38,7 +39,7 @@
 }
 
 .carousel-caption h1{
-    padding-top: 0px;
+    padding-top: 50px;
     padding-bottom: 0px;
     font-size: 55px;
     font-weight: 500;
@@ -47,15 +48,16 @@
     text-align: center;
 }
 .carousel-caption p{
-    font-weight: 600;
+    font-weight: 700;
     color: black;
     text-align: center;
+    font-size: 15px;
 }
 
 .btn-primary{
     position: relative;
     text-align: justify;
-    left: 40%;
+   
 }
 .input-group{
     width: 90%;
@@ -170,28 +172,29 @@ h1{
 
 }
 .collect{
-    margin-left: 70px !important;
-     margin-right: 80px  !important;
+    margin-left: 25px !important;
+     margin-right: 30px  !important;
      padding-left:70px ;
-     padding-right: 60px;
+     padding-right: 50px;
  }
 
  .slick-prev{
-    width: 65px;
+    width: 25px;
     position: absolute;
-    top: 100px;
+    top: 120px;
     left: 15px;
-    background-color: antiquewhite;
+    background-color: rgb(238, 224, 224);
     font-size: 15px;
     font-weight: 500;
+    box-shadow: #fff;
 }
 
 .slick-next{
-    width: 50px;
+    width: 25px;
     position: absolute;
-    top: 100px;
+    top: 120px;
     right: 10px;
-    background-color: antiquewhite;
+    background-color: rgb(238, 224, 224);
     font-size: 15px;
     font-weight: 500;
 }
@@ -200,7 +203,7 @@ h1{
     background: rgb(238, 224, 224);
 }
 .collection-box img{
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.5s;
@@ -224,8 +227,8 @@ h1{
 
 .collection-box {
     position: relative;
-    margin-bottom: 30px;
-    
+    margin-bottom: 100px;
+    margin-top: 20px;
 }
 
 .tag{
@@ -251,6 +254,8 @@ h1{
     background-size: 100% 100%;
     width: 100%;
     height: 80%;
+   
+    
 }
 
 .parallex h1{
@@ -280,7 +285,7 @@ h1{
 }
 .user-review{
     text-align: center;
-    box-shadow: 0 0 10px 1px rgba(97, 97, 139, 0.2);
+    box-shadow: 0 0 10px 1px rgba(83, 83, 119, 0.2);
     padding-bottom: 50px;
     border-radius: 10%;
     background: white;
@@ -327,7 +332,7 @@ h1{
 /*--------------------------------------------------------------------------------------*/
 
 .footer{
-    padding: 70px 20px;
+    padding:100px 10px;
     background-image:linear-gradient(#2c2b2b,rgba(21, 21, 22, 0.933)) ;
     color: white;
     
@@ -336,10 +341,11 @@ h1{
     text-align: left;
     margin-bottom: 25px;
     margin-top: 20px;
+    font-size: 30px;
 }
 .footer p{
     text-align: justify;
-    font-size: 15px;
+    font-size: 20px;
     padding-right: 35px;
 }
 

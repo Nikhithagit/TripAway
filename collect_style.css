@@ -1,9 +1,5 @@
-.navbar-brand{
-   text-align: left;
-   position: absolute;
-    transform: translateY(-110%);
-    left: 80%;
-    font-size: 40px;
+.nav-item h3{
+     font-size: 40px;
     font-weight: 700;
     color: rgb(238, 224, 224);
     
@@ -13,7 +9,7 @@
 
 .header{
     text-align: justify;
-    padding: 50px 20px 20px 30px;
+    padding: 30px 20px 20px 30px;
     background-image:linear-gradient(#2c2b2b,rgba(35, 35, 37, 0.933)) ;
     font-weight: 800;
     color: white;
@@ -35,6 +31,12 @@
     width: 100%;
     padding: 15px;
     height: 250px;
+    transition: 0.5s;
+
+}
+
+.place-img img:hover{
+    transform: scale(1.1);
 }
 
 .place-box{
@@ -89,7 +91,7 @@
 }
 /*-----------------------------------------------------------------------------------*/
 .footer{
-    padding: 50px 20px;
+    padding:80px 10px;
     background-image:linear-gradient(#2c2b2b,rgba(21, 21, 22, 0.933)) ;
     color: white;
     
@@ -97,10 +99,11 @@
 .footer h4{
     text-align: left;
     margin-bottom: 25px;
-    margin-top: 15px;
+    margin-top: 20px;
+    font-size: 30px;
 }
 .footer p{
     text-align: justify;
-    font-size: 15px;
+    font-size: 20px;
     padding-right: 35px;
 }
